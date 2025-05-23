@@ -1,0 +1,19 @@
+.auto-layout {
+  width: calc(100% - 324px);
+  margin: 0 162px;
+  max-width: 1596px;
+
+  /* Middle screen style（768px ~ 1440px） */
+  @media screen and (max-width: 1440px) {
+    width: calc(100% - 160px);
+    max-width: 1280px;
+    margin: 0 80px;
+  }
+
+  /* Small screen style（Less than 768px） */
+  @media screen and (max-width: 768px) {
+    width: calc(100% - 32px);
+    max-width: none;
+    margin: 0 16px;
+  }
+}

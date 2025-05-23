@@ -1,0 +1,45 @@
+$font-small: 12px;
+$font-medium: 14px;
+$font-large: 16px;
+$font-xlarge: 18px;
+$font-xxlarge: 20px;
+$font-xxxlarge: 22px;
+$font-xxxxlarge: 24px;
+$font-xxxxxlarge: 26px;
+
+.fc-main-title {
+  color: #98989A;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 53.2px */
+  margin: 30px 0;
+}
+
+.fc-title {
+  color: #98989A;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 53.2px */
+}
+
+.fc-small-title {
+  color: #98989A;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 53.2px */
+}
+
+.fc-text {
+  color: #98989A;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.money-color{
+  color: #FE8030;
+}
